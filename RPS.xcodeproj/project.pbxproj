@@ -13,6 +13,8 @@
 		15A66D4A26F9BBB7009C0AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A66D4826F9BBB7009C0AD3 /* Main.storyboard */; };
 		15A66D4C26F9BBB9009C0AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A66D4B26F9BBB9009C0AD3 /* Assets.xcassets */; };
 		15A66D4F26F9BBB9009C0AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A66D4D26F9BBB9009C0AD3 /* LaunchScreen.storyboard */; };
+		15A66D5726F9BBDD009C0AD3 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A66D5626F9BBDD009C0AD3 /* Sign.swift */; };
+		15A66D5926F9BC61009C0AD3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A66D5826F9BC61009C0AD3 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		15A66D4B26F9BBB9009C0AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A66D4E26F9BBB9009C0AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15A66D5026F9BBB9009C0AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A66D5626F9BBDD009C0AD3 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		15A66D5826F9BC61009C0AD3 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				15A66D4B26F9BBB9009C0AD3 /* Assets.xcassets */,
 				15A66D4D26F9BBB9009C0AD3 /* LaunchScreen.storyboard */,
 				15A66D5026F9BBB9009C0AD3 /* Info.plist */,
+				15A66D5626F9BBDD009C0AD3 /* Sign.swift */,
+				15A66D5826F9BC61009C0AD3 /* GameState.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				15A66D4726F9BBB7009C0AD3 /* ViewController.swift in Sources */,
 				15A66D4326F9BBB7009C0AD3 /* AppDelegate.swift in Sources */,
+				15A66D5926F9BC61009C0AD3 /* GameState.swift in Sources */,
+				15A66D5726F9BBDD009C0AD3 /* Sign.swift in Sources */,
 				15A66D4526F9BBB7009C0AD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +207,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -260,6 +269,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -289,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTQ7UCH76F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RPS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTQ7UCH76F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RPS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
